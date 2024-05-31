@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/ase_assignment_3/static/js/main.764936c7.js",
+    "static/media/staff3.png": "/ase_assignment_3/static/media/staff3.9eeb35507df6d84826c7.png",
+    "static/media/staff2.png": "/ase_assignment_3/static/media/staff2.8db354b4e25eb3c4bd72.png",
+    "static/media/staff1.png": "/ase_assignment_3/static/media/staff1.fdb3bf651b76f9ed249b.png",
+    "static/media/staff4.png": "/ase_assignment_3/static/media/staff4.bab48e74f85294ceb8a6.png",
+    "static/media/staff5.png": "/ase_assignment_3/static/media/staff5.8796647e4f65ea51f080.png",
+    "static/media/car-registration.png": "/ase_assignment_3/static/media/car-registration.3dc6e95fea249b43240d.png",
+    "static/media/welcome.png": "/ase_assignment_3/static/media/welcome.6985f3ceb630fa7258b6.png",
+    "static/media/drivers-license.png": "/ase_assignment_3/static/media/drivers-license.c157114e482fc37470a8.png",
+    "index.html": "/ase_assignment_3/index.html",
+    "main.764936c7.js.map": "/ase_assignment_3/static/js/main.764936c7.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.764936c7.js"
+  ]
+}
