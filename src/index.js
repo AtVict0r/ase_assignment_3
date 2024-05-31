@@ -1,17 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header from "./components/header";
+import Navbar from "./components/navbar";
+import Main from "./components/main";
+import Footer from "./components/footer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let firstName = prompt("Enter First Name: ");
+let lastName = prompt("Enter Last Name: ");
+let birthYear = prompt("Enter Year of Birth: ");
+
 root.render(
   <React.StrictMode>
-    <App />
+    <Header userName = {firstName + ' ' + lastName} userAge={new Date().getFullYear() - birthYear} />
+    <Navbar />
+    <Main />
+    <Footer />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

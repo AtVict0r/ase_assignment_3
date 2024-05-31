@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Navbar = () => {
   const [activeLink, setActiveLink] = React.useState('Home');
 
